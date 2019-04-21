@@ -1,15 +1,22 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="400dp"
     tools:context="fragment.SecondFragment"
-    android:background="@android:color/holo_green_dark">
+    android:background="@android:color/holo_green_dark"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Second Fragment"
-        android:gravity="center"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/etradius"
+        android:text="Enter Radius"/>
 
-</FrameLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnradius"
+        android:text="Calculate RADIUS"/>
+
+</LinearLayout>
