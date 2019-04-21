@@ -1,4 +1,4 @@
-package com.example.fragments;
+fghpackage com.example.fragments;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
